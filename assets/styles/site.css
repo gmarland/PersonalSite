@@ -1,0 +1,49 @@
+/* fonts */
+    @font-face {
+        font-family: RetroFont;
+        src: url(/fonts/ARCADEPI.TTF);
+    }
+
+/* global styles */
+
+	html, body {
+	    margin: 0px;
+	    padding: 0px;
+        width: 100%;
+        height: 100%;
+	}
+
+	body {
+        background-color: #000000;
+		font-family: RetroFont;
+		font-size: 15px;
+        color: #ffffff;
+	}
+    
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* table classes */
+    
+    .table {
+        display: table;
+    }
+    
+    .table.full {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .table .row {
+        display: table-row;
+    }
+    
+    .table .cell {
+        display: table-cell;
+    }

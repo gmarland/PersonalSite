@@ -1,0 +1,56 @@
+.ngdialog-content {
+	position: relative!important;
+	width: 600px !important;
+	position: absolute !important;
+	top: 10px;
+	bottom: 10px;
+	left: 50%;
+	padding: 15px !important;
+	margin-left: -300px !important;
+	border-radius: 0px !important;
+	border: 2px solid #ffff00 !important;
+	background: #000000 !important;
+	color: #FFFFFF !important;
+	font-family: RetroFont !important;
+}
+
+@media only screen and (max-width: 610px) {
+	.ngdialog-content {
+		width: auto !important;
+		left: 10px !important;
+		right: 10px !important;
+		margin: 0px !important;
+	}
+}
+
+.ngdialog-content #title {
+	font-size: 22px;
+}
+
+.ngdialog-content #body {
+	position: absolute;
+	top: 50px;
+	bottom: 50px;
+	right: 15px;
+	left: 15px;
+	overflow-y: auto;
+}
+
+.ngdialog-content #close-button-container {
+	position: absolute;
+	height: 30px;
+	bottom: 10px;
+	right: 15px;
+	left: 15px;
+
+}
+
+.ngdialog-content #close-button {
+	width: 100%;
+	height: 100%;
+	color: #ff0000;
+	border: 3px solid #ff0000;
+	background: #000000;
+	font-family: RetroFont !important;
+	cursor: pointer;
+}
