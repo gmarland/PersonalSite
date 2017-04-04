@@ -31,7 +31,7 @@
 // Removing www from URL routes
 
 	app.get("/*", function(req, res, next) {
-		if (req.headers.host.match(/^www\./) != null) res.redirect("http://" + req.headers.host.slice(4) + req.url, 301);
+		if (req.headers.host.match(/^www\./) == null) res.redirect("http://www." + req.headers.host.slice(4) + req.url, 301);
 		else next();
 	});
 
