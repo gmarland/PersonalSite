@@ -26,7 +26,7 @@
 
 // Create the http server
 	
-	var http = require("http").createServer(app).listen((process.env.PORT || 8080));
+	var http = require("http").createServer(app).listen(8080);
 
 // Removing www from URL routes
 
