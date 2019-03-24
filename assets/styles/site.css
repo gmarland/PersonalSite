@@ -29,6 +29,10 @@
         text-decoration: underline;
     }
 
+    .white {
+        color: #ffffff;
+    }
+
 /* table classes */
     
     .table {
